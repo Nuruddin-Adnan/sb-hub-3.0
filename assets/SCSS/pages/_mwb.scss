@@ -1,4 +1,78 @@
 .mwb {
+
+    // world-clock start
+    .world-clock {
+        .left-text {
+            font-family: BentonSansMedium;
+            font-size: 14px;
+            color: #0A2240;
+            text-transform: uppercase;
+            padding-right: 20px;
+            margin-bottom: 0;
+        }
+
+        .clock-wrapper {
+            width: calc(100% - 125px);
+
+            .clockSwiper {
+                .text {
+                    margin-left: 10px;
+
+                    h6 {
+                        font-size: 12px;
+                        color: #4F637C;
+                        font-family: BentonSansMedium;
+                        white-space: nowrap;
+                        margin-bottom: -5px;
+                    }
+
+                    small {
+                        font-size: 12px;
+                        color: #4F637C;
+                    }
+                }
+            }
+        }
+
+        .world-clock-next,
+        .world-clock-prev {
+            position: absolute;
+            z-index: 1;
+
+            span {
+                font-size: 50px;
+                color: #0062E1;
+
+                @media (max-width: 767px) {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .world-clock-prev {
+            left: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .world-clock-next {
+            right: -15px;
+            left: auto;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .world-clock-prev.swiper-button-disabled {
+            span {
+                color: transparent;
+            }
+        }
+
+    }
+
+    // end of world-clock
+
+    // client-feedback start
     .client-feedback {
         h3 {
             font-size: 30px;
@@ -14,4 +88,11 @@
             color: #1A314D;
         }
     }
+
+    // end of client-feedback
+
+
+
+    // ? start
+    // end of ?
 }
