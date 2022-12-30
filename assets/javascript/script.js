@@ -33,6 +33,10 @@ const clockSwiper = new Swiper(".clockSwiper", {
 
 // Banner slider
 const bannerSwiper = new Swiper(".bannerSwiper", {
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     pagination: {
         el: ".swiper-pagination",
     },

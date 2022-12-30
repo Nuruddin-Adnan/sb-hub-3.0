@@ -72,6 +72,162 @@
 
     // end of world-clock
 
+
+    // ? start
+    // end of ?
+
+
+    // my-activity start
+    .my-activity {
+        margin: 60px 0;
+
+        .activity-card {
+            border: 1px solid rgba(#0033AA, 0.1);
+
+            .activity-card-header {
+                h4 {
+                    font-size: 18px;
+                    color: #5C6C80;
+                    font-family: BentonSansMedium;
+                    margin: 0;
+                    margin-left: 15px;
+                }
+
+                margin-bottom: 15px;
+            }
+
+            .recent-documents {
+                li {
+                    a {
+                        img {
+                            vertical-align: baseline;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            margin: 0;
+                            color: #35404d;
+                            line-height: 1;
+                        }
+
+                        small {
+                            font-size: 12px;
+                            color: #5C6C80;
+                        }
+                    }
+                }
+            }
+
+            .recent-site {
+                li {
+                    border-color: transparent;
+
+                    a {
+                        p {
+                            font-family: BentonSansMedium;
+                            font-size: 14px;
+                            margin: 0;
+                            color: #35404d;
+                            line-height: 1;
+                        }
+                    }
+                }
+            }
+
+            .quick-link {
+                li {
+                    border-color: transparent;
+
+                    a {
+                        font-size: 12px;
+                        margin: 0;
+                        color: #0062E1;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        line-height: 1.35;
+
+                        i {
+                            color: #979797;
+                            font-size: 8px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+
+            .view-all-btn {
+                font-size: 12px;
+                text-transform: uppercase;
+
+                img {
+                    transition: all 0.2s linear;
+                    margin-top: -2px;
+                }
+            }
+
+
+
+            .view-all-btn:hover {
+                color: #0062E1;
+
+                img {
+                    transform: translateX(5px);
+                }
+            }
+        }
+    }
+
+    // end of my-activity
+
+
+    // feed start
+    .feed {
+        margin-bottom: 80px;
+
+        .feed-card {
+            border: 1px solid rgba(#0033AA, 0.1);
+
+            .feed-card-header {
+                h4 {
+                    font-size: 18px;
+                    color: #5C6C80;
+                    font-family: BentonSansMedium;
+                    margin: 0;
+                    margin-left: 15px;
+                }
+            }
+
+            figure {
+                margin: 15px 0 20px 0;
+            }
+
+            .view-all-btn {
+                font-size: 12px;
+                text-transform: uppercase;
+
+                img {
+                    transition: all 0.2s linear;
+                    margin-top: -2px;
+                }
+            }
+
+
+
+            .view-all-btn:hover {
+                color: #0062E1;
+
+                img {
+                    transform: translateX(5px);
+                }
+            }
+        }
+    }
+
+    // end of feed
+
+
+
     // client-feedback start
     .client-feedback {
         h3 {
@@ -91,8 +247,4 @@
 
     // end of client-feedback
 
-
-
-    // ? start
-    // end of ?
 }

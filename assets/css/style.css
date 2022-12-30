@@ -100,6 +100,106 @@ body {
 .mwb .world-clock .world-clock-prev.swiper-button-disabled span {
   color: transparent;
 }
+.mwb .my-activity {
+  margin: 60px 0;
+}
+.mwb .my-activity .activity-card {
+  border: 1px solid rgba(0, 51, 170, 0.1);
+}
+.mwb .my-activity .activity-card .activity-card-header {
+  margin-bottom: 15px;
+}
+.mwb .my-activity .activity-card .activity-card-header h4 {
+  font-size: 18px;
+  color: #5C6C80;
+  font-family: BentonSansMedium;
+  margin: 0;
+  margin-left: 15px;
+}
+.mwb .my-activity .activity-card .recent-documents li a img {
+  vertical-align: baseline;
+}
+.mwb .my-activity .activity-card .recent-documents li a p {
+  font-size: 14px;
+  margin: 0;
+  color: #35404d;
+  line-height: 1;
+}
+.mwb .my-activity .activity-card .recent-documents li a small {
+  font-size: 12px;
+  color: #5C6C80;
+}
+.mwb .my-activity .activity-card .recent-site li {
+  border-color: transparent;
+}
+.mwb .my-activity .activity-card .recent-site li a p {
+  font-family: BentonSansMedium;
+  font-size: 14px;
+  margin: 0;
+  color: #35404d;
+  line-height: 1;
+}
+.mwb .my-activity .activity-card .quick-link li {
+  border-color: transparent;
+}
+.mwb .my-activity .activity-card .quick-link li a {
+  font-size: 12px;
+  margin: 0;
+  color: #0062E1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.35;
+}
+.mwb .my-activity .activity-card .quick-link li a i {
+  color: #979797;
+  font-size: 8px;
+  margin-right: 10px;
+}
+.mwb .my-activity .activity-card .view-all-btn {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.mwb .my-activity .activity-card .view-all-btn img {
+  transition: all 0.2s linear;
+  margin-top: -2px;
+}
+.mwb .my-activity .activity-card .view-all-btn:hover {
+  color: #0062E1;
+}
+.mwb .my-activity .activity-card .view-all-btn:hover img {
+  transform: translateX(5px);
+}
+.mwb .feed {
+  margin-bottom: 80px;
+}
+.mwb .feed .feed-card {
+  border: 1px solid rgba(0, 51, 170, 0.1);
+}
+.mwb .feed .feed-card .feed-card-header h4 {
+  font-size: 18px;
+  color: #5C6C80;
+  font-family: BentonSansMedium;
+  margin: 0;
+  margin-left: 15px;
+}
+.mwb .feed .feed-card figure {
+  margin: 15px 0 20px 0;
+}
+.mwb .feed .feed-card .view-all-btn {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.mwb .feed .feed-card .view-all-btn img {
+  transition: all 0.2s linear;
+  margin-top: -2px;
+}
+.mwb .feed .feed-card .view-all-btn:hover {
+  color: #0062E1;
+}
+.mwb .feed .feed-card .view-all-btn:hover img {
+  transform: translateX(5px);
+}
 .mwb .client-feedback h3 {
   font-size: 30px;
   color: #1A314D;
