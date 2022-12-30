@@ -1,0 +1,125 @@
+@font-face {
+  font-family: BentonSansRegular;
+  src: url(../fonts/BentonSans-Regular.ttf);
+}
+@font-face {
+  font-family: BentonSansBook;
+  src: url(../fonts/BentonSans-Book.ttf);
+}
+@font-face {
+  font-family: BentonSansMedium;
+  src: url(../fonts/BentonSans-Medium.ttf);
+}
+@font-face {
+  font-family: BentonSansBold;
+  src: url(../fonts/BentonSans-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f2f2f4;
+}
+
+body {
+  font-family: BentonSansRegular;
+}
+
+.btn {
+  font-family: BentonSansMedium;
+}
+
+.bg-blue {
+  background-color: #0062E1;
+}
+
+.text-blue {
+  color: #0062E1;
+}
+
+.mwb .client-feedback h3 {
+  font-size: 30px;
+  color: #1A314D;
+}
+.mwb .client-feedback h4 {
+  color: #5C6C80;
+  text-transform: uppercase;
+}
+.mwb .client-feedback small {
+  color: #1A314D;
+}
+
+.back-to-top {
+  margin: 50px 0;
+}
+.back-to-top small {
+  color: #0033AA;
+  font-size: 12px;
+}
+.back-to-top .btn {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  padding: 0;
+  background-color: #0033AA;
+}
+
+.footer {
+  background-color: #0A2240;
+  background-image: url("../images/footer/footer-bg.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.footer ul {
+  padding: 10px 0;
+}
+.footer ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+.footer ul li .footer-link {
+  text-transform: uppercase;
+  font-family: BentonSansMedium;
+  color: #00BFFF;
+  font-size: 12px;
+}
+.footer .social-link h4 {
+  font-family: BentonSansBold;
+  color: #FFF;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.footer .social-link .social-icon-wrapper {
+  display: flex;
+}
+.footer .social-link .social-icon-wrapper a {
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  background-color: #00BFFF;
+  border-radius: 5px;
+  color: #0A2240;
+  text-align: center;
+  margin-right: 15px;
+}
+
+/*=== abstracts css start ===*/
+/*=== End of abstracts css ===*/
+/*=== base css start ===*/
+/*=== End of base css ===*/
+/*=== pages css start ===*/
+/*=== End of pages css ===*/
+/*=== layouts css start ===*/
+/*=== End of layouts css ===*//*# sourceMappingURL=style.css.map */
