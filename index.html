@@ -211,17 +211,17 @@
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="latest-news" role="tabpanel" aria-labelledby="latest-news-tab" tabindex="0">
                         <div class="card news-lg" style="border-color: #dee2e6">
-                            <div class="card-body">
-                                <div class="row gy-4">
+                            <div class="card-body p-lg-4">
+                                <div class="row gy-5">
                                     <div class="col-lg-8">
-                                        <div class="row gy-4">
+                                        <div class="row gy-4 mb-4">
                                             <div class="col-lg-5 col-md-6">
-                                                <div class="input-group">
-                                                    <label class="input-group-text">
+                                                <div class="input-group filter">
+                                                    <label class="input-group-text bg-white">
                                                         <img src="assets/images/icon/funel.png" alt="funel">
                                                     </label>
-                                                    <select class="form-select">
-                                                        <option selected>Choose...</option>
+                                                    <select class="form-select bg-transparent">
+                                                        <option selected>Show all types of media</option>
                                                         <option value="1">One</option>
                                                         <option value="2">Two</option>
                                                         <option value="3">Three</option>
@@ -229,12 +229,12 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-5 col-md-6">
-                                                <div class="input-group">
-                                                    <label class="input-group-text">
+                                                <div class="input-group filter">
+                                                    <label class="input-group-text bg-white">
                                                         <img src="assets/images/icon/funel.png" alt="funel">
                                                     </label>
-                                                    <select class="form-select">
-                                                        <option selected>Choose...</option>
+                                                    <select class="form-select bg-transparent">
+                                                        <option selected>Show all types of media</option>
                                                         <option value="1">One</option>
                                                         <option value="2">Two</option>
                                                         <option value="3">Three</option>
@@ -242,7 +242,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="card">
+                                        <article class="card border-0 rounded-4 latest-news-lg" style="background-color: #E5E7E8;">
                                             <div class="position-relative">
                                                 <img src="assets/images/tab/Image-lg.png" class="card-img-top w-100" alt="tab image">
                                             </div>
@@ -253,16 +253,22 @@
                                                         <button type="button" class="btn btn-primary bg-blue" style="border-radius: 20px; padding: 0px 10px; line-height: 1;" data-bs-toggle="dropdown" aria-expanded="false">
                                                             <i class="fa-solid fa-ellipsis"></i>
                                                         </button>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="#">Share this article</a></li>
-                                                            <li><a href="#">bookmark this article</a></li>
-                                                            <li><a href="#">subscribe to this </a></li>
+                                                        <ul class="dropdown-menu rounded-4">
+                                                            <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                        share
+                                                                    </span> Share this article</a></li>
+                                                            <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                        star_rate
+                                                                    </span> Bookmark this article</a></li>
+                                                            <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                        add_alert
+                                                                    </span> Subscribe to this </a></li>
                                                         </ul>
                                                     </div>
                                                 </h5>
                                                 <p class="card-text">To paraphrase the great development economist, Amartya Sen, achieving and maintaining gender equity is central to both development and freedom.</p>
 
-                                                <div class="card-lg-footer d-flex justify-content-between">
+                                                <div class="card-lg-footer d-md-flex justify-content-between">
                                                     <ul class="ps-0 d-flex">
                                                         <li><i class="fa-solid fa-circle"></i> 10 August, 2022</li>
                                                         <li><i class="fa-solid fa-circle"></i> 5 min read</li>
@@ -270,7 +276,7 @@
                                                     <div class="d-flex align-items-center">
                                                         <p>12 likes</p>
                                                         <div>
-                                                            <div>
+                                                            <div class="user-avatar ps-4 pe-2">
                                                                 <img src="assets/images/tab/Ellipse-21.png" alt="user" class="img-fluid">
                                                                 <img src="assets/images/tab/Ellipse-22.png" alt="user" class="img-fluid">
                                                                 <img src="assets/images/tab/Ellipse-23.png" alt="user" class="img-fluid">
@@ -281,15 +287,15 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </article>
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="position-relative mb-4">
-                                            <input type="text" class="form-control" placeholder="What news article are you looking for?">
-                                            <img src="assets/images/icon/search.png" alt="icon" class="img-fluid">
+                                            <input type="text" class="form-control border-blue" placeholder="What news article are you looking for?" style="padding-left: 30px;">
+                                            <img src="assets/images/icon/search.png" alt="icon" class="img-fluid position-absolute top-50 start-0 translate-middle-y ps-2">
                                         </div>
-                                        <article class="news-sm mb-4">
-                                            <div class="row">
+                                        <article class="news-sm mb-3">
+                                            <div class="row gy-3">
                                                 <div class="col-md-6">
                                                     <img src="assets/images/tab/news-1.png" alt="news" class="w-100">
                                                 </div>
@@ -299,8 +305,8 @@
                                                 </div>
                                             </div>
                                         </article>
-                                        <article class="news-sm mb-4">
-                                            <div class="row">
+                                        <article class="news-sm mb-3">
+                                            <div class="row gy-3">
                                                 <div class="col-md-6">
                                                     <img src="assets/images/tab/news-2.png" alt="news" class="w-100">
                                                 </div>
@@ -310,8 +316,8 @@
                                                 </div>
                                             </div>
                                         </article>
-                                        <article class="news-sm">
-                                            <div class="row">
+                                        <article class="news-sm mb-3">
+                                            <div class="row gy-3">
                                                 <div class="col-md-6">
                                                     <img src="assets/images/tab/news-3.png" alt="news" class="w-100">
                                                 </div>
@@ -321,7 +327,18 @@
                                                 </div>
                                             </div>
                                         </article>
-                                        <button class="btn btn-primary blue-btn bg-blue rounded-3 mt-5 w-100"><small class="text-white">view all our news</small></button>
+                                        <article class="news-sm">
+                                            <div class="row gy-3">
+                                                <div class="col-md-6">
+                                                    <img src="assets/images/tab/news-3.png" alt="news" class="w-100">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h5>standard bank virtual 100-mile charity walkathon</h5>
+                                                    <p>6 hours ago 8 min read</p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <button class="btn btn-lg btn-primary blue-btn bg-blue rounded-3 mt-5 w-100"><small class="text-white text-uppercase">view all our news</small></button>
                                     </div>
                                 </div>
                             </div>
