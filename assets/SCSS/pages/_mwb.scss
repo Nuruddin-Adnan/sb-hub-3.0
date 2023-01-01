@@ -173,6 +173,24 @@
         }
 
         .news-sm {
+            .colored-heading {
+                font-size: 12px;
+                font-family: BentonSansMedium;
+                padding-top: 5px;
+
+                &.green {
+                    color: #00AF43;
+                }
+
+                &.orange {
+                    color: #FF681D;
+                }
+
+                &.red {
+                    color: #AA0050;
+                }
+            }
+
             h5 {
                 font-size: 14px;
                 color: #0062E1;

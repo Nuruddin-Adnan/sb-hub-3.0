@@ -188,6 +188,20 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.mwb .tab-mwb .news-sm .colored-heading {
+  font-size: 12px;
+  font-family: BentonSansMedium;
+  padding-top: 5px;
+}
+.mwb .tab-mwb .news-sm .colored-heading.green {
+  color: #00AF43;
+}
+.mwb .tab-mwb .news-sm .colored-heading.orange {
+  color: #FF681D;
+}
+.mwb .tab-mwb .news-sm .colored-heading.red {
+  color: #AA0050;
+}
 .mwb .tab-mwb .news-sm h5 {
   font-size: 14px;
   color: #0062E1;
