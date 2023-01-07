@@ -62,6 +62,12 @@
                 color: #0A2240;
                 text-align: center;
                 margin-right: 15px;
+                transition: all 0.2s linear;
+
+                &:hover {
+                    color: #fff;
+                    background-color: rgba(#00BFFF, 0.8);
+                }
             }
         }
     }

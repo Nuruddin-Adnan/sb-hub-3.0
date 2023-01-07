@@ -6,6 +6,16 @@
 
         .material-symbols-outlined {
             color: #0062E1;
+            border-radius: 50%;
+            padding: 5px;
+            font-size: 20px;
+            transition: all 0.2s linear;
+
+            &:hover {
+                background: #0062E1;
+                color: #fff;
+            }
+
         }
 
     }
@@ -31,6 +41,23 @@
         display: flex;
         justify-content: end;
         align-items: center;
+
+        .menu-icons-svg {
+            transition: all 0.2s linear;
+
+            &:hover {
+                fill: #fff;
+
+                circle {
+                    stroke: #fff;
+                }
+
+                rect {
+                    fill: #0062E1;
+                }
+            }
+
+        }
 
         .notifications {
             position: relative;
@@ -117,6 +144,10 @@
 
                 .notification_item_left {
                     margin-right: 10px;
+
+                    .notification-number {
+                        color: #0033AA;
+                    }
                 }
 
                 .notification_item_right {
@@ -295,12 +326,21 @@
 
     .wallet {
         padding-left: 150px;
-    }
 
-    .wallet i {
-        font-size: 20px;
-        color: white;
-        margin-right: 12px;
+        transition: all 0.2s linear;
+
+        .menu-icons-svg:hover {
+            fill: #fff;
+
+            circle {
+                stroke: #fff;
+            }
+
+            path {
+                fill: #0062E1;
+            }
+        }
+
     }
 
     .wallet p {
@@ -311,6 +351,8 @@
         font-size: 14px;
         color: #FFFFFF;
     }
+
+
 
     .nav_bottom {
         padding: 8px 0;
@@ -863,6 +905,21 @@
         color: #0089FF;
         font-size: 12px;
         font-family: BentonSansMedium;
+    }
+
+    .menu-icons-svg:hover {
+        fill: #0062E1;
+
+        circle {
+            stroke: #fff;
+            fill: #0062E1;
+
+
+        }
+
+        g {
+            stroke: #fff;
+        }
     }
 
     .bookmark {

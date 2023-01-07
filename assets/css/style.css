@@ -27,7 +27,7 @@ a:hover {
 }
 
 body {
-  background-color: #f2f2f4;
+  background-color: #f2f3f4;
 }
 
 .material-symbols-outlined {
@@ -343,6 +343,14 @@ body {
 }
 .navbar-top .nav-link .material-symbols-outlined {
   color: #0062E1;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 20px;
+  transition: all 0.2s linear;
+}
+.navbar-top .nav-link .material-symbols-outlined:hover {
+  background: #0062E1;
+  color: #fff;
 }
 .navbar-top .user-avatar {
   width: 30px;
@@ -372,6 +380,18 @@ body {
   display: flex;
   justify-content: end;
   align-items: center;
+}
+.main-header .menu_icons .menu-icons-svg {
+  transition: all 0.2s linear;
+}
+.main-header .menu_icons .menu-icons-svg:hover {
+  fill: #fff;
+}
+.main-header .menu_icons .menu-icons-svg:hover circle {
+  stroke: #fff;
+}
+.main-header .menu_icons .menu-icons-svg:hover rect {
+  fill: #0062E1;
 }
 .main-header .menu_icons .notifications {
   position: relative;
@@ -448,6 +468,9 @@ body {
 }
 .main-header .menu_icons .notifications .notification_item .notification_item_left {
   margin-right: 10px;
+}
+.main-header .menu_icons .notifications .notification_item .notification_item_left .notification-number {
+  color: #0033AA;
 }
 .main-header .menu_icons .notifications .notification_item .notification_item_right h2 {
   font-family: "BentonSans", sans-serif;
@@ -587,11 +610,16 @@ body {
 }
 .main-header .wallet {
   padding-left: 150px;
+  transition: all 0.2s linear;
 }
-.main-header .wallet i {
-  font-size: 20px;
-  color: white;
-  margin-right: 12px;
+.main-header .wallet .menu-icons-svg:hover {
+  fill: #fff;
+}
+.main-header .wallet .menu-icons-svg:hover circle {
+  stroke: #fff;
+}
+.main-header .wallet .menu-icons-svg:hover path {
+  fill: #0062E1;
 }
 .main-header .wallet p {
   color: white;
@@ -1071,6 +1099,16 @@ body {
   font-size: 12px;
   font-family: BentonSansMedium;
 }
+.navbar-bottom .menu-icons-svg:hover {
+  fill: #0062E1;
+}
+.navbar-bottom .menu-icons-svg:hover circle {
+  stroke: #fff;
+  fill: #0062E1;
+}
+.navbar-bottom .menu-icons-svg:hover g {
+  stroke: #fff;
+}
 .navbar-bottom .bookmark .submenu-box {
   position: absolute;
   right: calc(100% + 8px);
@@ -1198,6 +1236,11 @@ body {
   color: #0A2240;
   text-align: center;
   margin-right: 15px;
+  transition: all 0.2s linear;
+}
+.footer .social-link .social-icon-wrapper a:hover {
+  color: #fff;
+  background-color: rgba(0, 191, 255, 0.8);
 }
 
 /*=== abstracts css start ===*/
