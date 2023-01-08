@@ -224,6 +224,55 @@ body {
     font-size: 10px;
   }
 }
+.mwb .tab-mwb #my-subscriptions .top-heading {
+  font-size: 20px;
+  color: #1A314D;
+}
+.mwb .tab-mwb #my-subscriptions .sub-top-heading {
+  font-size: 14px;
+  color: #5C6C80;
+  margin-bottom: 1.5rem;
+}
+.mwb .tab-mwb #my-subscriptions .my-subscriptions-card {
+  background-color: #F4F5F7;
+  border-radius: 16px;
+  padding: 1rem;
+  height: 100%;
+}
+.mwb .tab-mwb #my-subscriptions .title {
+  font-size: 14px;
+  font-family: BentonSansMedium;
+  color: #0062E1;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 15px;
+}
+.mwb .tab-mwb #my-subscriptions .title::after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  border-radius: 3px;
+  background-color: #0033AA;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 4px);
+}
+.mwb .tab-mwb #my-subscriptions .title.green::after {
+  background-color: #00AF43;
+}
+.mwb .tab-mwb #my-subscriptions .title.yellow::after {
+  background-color: #B5BD00;
+}
+.mwb .tab-mwb #my-subscriptions .description {
+  font-size: 12px;
+  color: #4F637C;
+}
+.mwb .tab-mwb #my-subscriptions .subscription-status {
+  font-size: 11px;
+  font-family: BentonSansMedium;
+  color: #0062E1;
+  text-transform: uppercase;
+}
 .mwb .my-activity {
   margin: 60px 0;
 }

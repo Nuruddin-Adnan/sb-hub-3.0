@@ -217,6 +217,70 @@
         // end of latest-news
 
 
+        // my-subscriptions start
+        #my-subscriptions {
+            .top-heading {
+                font-size: 20px;
+                color: #1A314D;
+            }
+
+            .sub-top-heading {
+                font-size: 14px;
+                color: #5C6C80;
+                margin-bottom: 1.5rem;
+            }
+
+            .my-subscriptions-card {
+                background-color: #F4F5F7;
+                border-radius: 16px;
+                padding: 1rem;
+                height: 100%;
+            }
+
+            .title {
+                font-size: 14px;
+                font-family: BentonSansMedium;
+                color: #0062E1;
+                text-transform: uppercase;
+                position: relative;
+                margin-bottom: 15px;
+
+                &::after {
+                    content: '';
+                    width: 60px;
+                    height: 2px;
+                    border-radius: 3px;
+                    background-color: #0033AA;
+                    position: absolute;
+                    left: 0;
+                    top: calc(100% + 4px);
+                }
+
+                &.green::after {
+                    background-color: #00AF43;
+                }
+
+                &.yellow::after {
+                    background-color: #B5BD00;
+                }
+            }
+
+            .description {
+                font-size: 12px;
+                color: #4F637C;
+            }
+
+            .subscription-status {
+                font-size: 11px;
+                font-family: BentonSansMedium;
+                color: #0062E1;
+                text-transform: uppercase;
+            }
+        }
+
+        // end of my-subscriptions
+
+
         // ? start
         // end of ?
 
