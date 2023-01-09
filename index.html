@@ -198,7 +198,7 @@
                                         </div>
                                         <div class="notification_item for_dot">
                                             <div class="notification_item_left">
-                                                <span class="notification-number">1</span>
+                                                <span class="notification-number">1.</span>
                                             </div>
                                             <div class="notification_item_right">
                                                 <a href="#">Alert notification title will be displayed here.</a>
@@ -216,7 +216,7 @@
                                         </div>
                                         <div class="notification_item for_dot">
                                             <div class="notification_item_left">
-                                                <span class="notification-number">2</span>
+                                                <span class="notification-number">2.</span>
                                             </div>
                                             <div class="notification_item_right">
                                                 <a href="#">Reminder notification title will be displayed…</a>
@@ -234,7 +234,7 @@
                                         </div>
                                         <div class="notification_item">
                                             <div class="notification_item_left">
-                                                <span class="notification-number">3</span>
+                                                <span class="notification-number">3.</span>
                                             </div>
                                             <div class="notification_item_right">
                                                 <a href="#">Announcement notification title will…</a>
@@ -252,7 +252,7 @@
                                         </div>
                                         <div class="notification_item">
                                             <div class="notification_item_left">
-                                                <span class="notification-number">4</span>
+                                                <span class="notification-number">4.</span>
                                             </div>
                                             <div class="notification_item_right">
                                                 <a href="#">Operation notification title will be displayed…</a>
@@ -344,11 +344,11 @@
             <div class="container">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link d-flex" href="#">
                             <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0.212402C8.60855 0.212402 8.2213 0.293017 7.86238 0.449223C7.50354 0.605388 7.1805 0.833986 6.91376 1.12034L1.51459 6.90451C1.02294 7.43244 0.749714 8.12735 0.75 8.84875V15.0544C0.75 15.4944 0.924805 15.9164 1.23596 16.2276C1.54711 16.5387 1.96913 16.7135 2.40917 16.7135H15.5908C16.0309 16.7135 16.4529 16.5387 16.764 16.2276C17.0752 15.9164 17.25 15.4944 17.25 15.0544V8.84854C17.2503 8.12713 16.9767 7.43205 16.485 6.90412L11.086 1.12013C10.8193 0.833767 10.4965 0.605391 10.1376 0.449223C9.7787 0.293017 9.39145 0.212402 9 0.212402ZM8.22817 1.28974C8.47169 1.18376 8.73442 1.12907 9 1.12907C9.26558 1.12907 9.52831 1.18376 9.77183 1.28974C10.0153 1.39572 10.2348 1.5511 10.4158 1.74545L15.8148 7.52948C16.1483 7.88766 16.3336 8.35915 16.3333 8.84854V15.0544C16.3333 15.2513 16.2551 15.4402 16.1159 15.5794C15.9766 15.7186 15.7878 15.7969 15.5908 15.7969H11.75V10.7552C11.75 10.4148 11.638 10.0752 11.42 9.81359C11.2 9.54954 10.8817 9.38019 10.5278 9.38019H7.47222C7.1183 9.38019 6.80001 9.54954 6.57997 9.81359C6.36196 10.0752 6.25 10.4148 6.25 10.7552V15.7969H2.40917C2.21224 15.7969 2.02339 15.7186 1.88414 15.5794C1.74489 15.4401 1.66667 15.2513 1.66667 15.0544L1.66667 8.84832C1.66644 8.35893 1.85195 7.88742 2.18541 7.52923L7.58458 1.74507C7.76557 1.55071 7.98465 1.39572 8.22817 1.28974ZM7.28417 10.4004C7.35065 10.3207 7.42096 10.2969 7.47222 10.2969H10.5278C10.579 10.2969 10.6494 10.3207 10.7158 10.4004C10.7843 10.4826 10.8333 10.6093 10.8333 10.7552V15.7969H7.16667V10.7552C7.16667 10.6093 7.21567 10.4826 7.28417 10.4004Z" fill="#1A314D" />
                             </svg>
-                            SB Hub Home
+                            <span class="ps-1">SB Hub Home</span>
                         </a>
                     </li>
                 </ul>
@@ -642,6 +642,8 @@
                                         <article class="card border-0 rounded-4 latest-news-lg" style="background-color: #E5E7E8;">
                                             <div class="position-relative">
                                                 <img src="assets/images/tab/Image-lg.png" class="card-img-top w-100" alt="tab image">
+                                                <img src="assets/images/tab/new_badge.png" class="position-absolute start-0" alt="tab image" style="top: 20px">
+                                                <p class="badge-text">Leadership</p>
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-title d-flex  justify-content-between">
@@ -1237,7 +1239,384 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="contributors" role="tabpanel" aria-labelledby="contributors-tab" tabindex="0">
-                        contributors
+                        <div class="card" style="border-color: #dee2e6">
+                            <div class="card-body p-lg-4">
+                                <div class="row gy-4">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="contributor-card">
+                                            <div class="contributor-card-header d-flex align-items-center justify-content-between">
+                                                <div class="text">
+                                                    <h4 class="name">Name Surname</h4>
+                                                    <p class="designation">Job title</p>
+                                                    <div class="d-flex align-items-center contributor-summary">
+                                                        <svg width="17" height="23" viewBox="0 0 17 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7493 20.3999C15.7493 21.0209 15.208 21.5249 14.541 21.5249H2.45768C1.79068 21.5249 1.24935 21.0209 1.24935 20.3999V2.3999C1.24935 1.7789 1.79068 1.2749 2.45768 1.2749H10.916V5.2124C10.916 5.5229 11.1867 5.7749 11.5202 5.7749H15.7493V20.3999ZM16.7813 4.81415L11.9479 0.314152C11.8343 0.209527 11.6809 0.149902 11.5202 0.149902H2.45768C1.12489 0.149902 0.0410156 1.15903 0.0410156 2.3999V20.3999C0.0410156 21.6408 1.12489 22.6499 2.45768 22.6499H14.541C15.8738 22.6499 16.9577 21.6408 16.9577 20.3999V5.2124C16.9577 5.06278 16.8936 4.9199 16.7813 4.81415ZM3.06185 5.7749H7.97493C8.30964 5.7749 8.5791 5.5229 8.5791 5.2124C8.5791 4.9019 8.30964 4.6499 7.97493 4.6499H3.06185C2.72835 4.6499 2.45768 4.9019 2.45768 5.2124C2.45768 5.5229 2.72835 5.7749 3.06185 5.7749ZM7.97493 8.0249H3.06185C2.72835 8.0249 2.45768 7.7729 2.45768 7.4624C2.45768 7.1519 2.72835 6.8999 3.06185 6.8999H7.97493C8.30964 6.8999 8.5791 7.1519 8.5791 7.4624C8.5791 7.7729 8.30964 8.0249 7.97493 8.0249ZM2.45768 9.7124C2.45768 10.0229 2.72835 10.2749 3.06185 10.2749H13.9368C14.2703 10.2749 14.541 10.0229 14.541 9.7124C14.541 9.4019 14.2703 9.1499 13.9368 9.1499H3.06185C2.72835 9.1499 2.45768 9.4019 2.45768 9.7124ZM13.3327 18.1499H3.66602V13.6499H13.3327V18.1499ZM3.06185 12.5249H13.9368C14.2703 12.5249 14.541 12.7769 14.541 13.0874V18.7124C14.541 19.0229 14.2703 19.2749 13.9368 19.2749H3.06185C2.72835 19.2749 2.45768 19.0229 2.45768 18.7124V13.0874C2.45768 12.7769 2.72835 12.5249 3.06185 12.5249Z" fill="#767676" />
+                                                            <mask id="mask0_107_21970" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="17" height="23">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7493 20.3999C15.7493 21.0209 15.208 21.5249 14.541 21.5249H2.45768C1.79068 21.5249 1.24935 21.0209 1.24935 20.3999V2.3999C1.24935 1.7789 1.79068 1.2749 2.45768 1.2749H10.916V5.2124C10.916 5.5229 11.1867 5.7749 11.5202 5.7749H15.7493V20.3999ZM16.7813 4.81415L11.9479 0.314152C11.8343 0.209527 11.6809 0.149902 11.5202 0.149902H2.45768C1.12489 0.149902 0.0410156 1.15903 0.0410156 2.3999V20.3999C0.0410156 21.6408 1.12489 22.6499 2.45768 22.6499H14.541C15.8738 22.6499 16.9577 21.6408 16.9577 20.3999V5.2124C16.9577 5.06278 16.8936 4.9199 16.7813 4.81415ZM3.06185 5.7749H7.97493C8.30964 5.7749 8.5791 5.5229 8.5791 5.2124C8.5791 4.9019 8.30964 4.6499 7.97493 4.6499H3.06185C2.72835 4.6499 2.45768 4.9019 2.45768 5.2124C2.45768 5.5229 2.72835 5.7749 3.06185 5.7749ZM7.97493 8.0249H3.06185C2.72835 8.0249 2.45768 7.7729 2.45768 7.4624C2.45768 7.1519 2.72835 6.8999 3.06185 6.8999H7.97493C8.30964 6.8999 8.5791 7.1519 8.5791 7.4624C8.5791 7.7729 8.30964 8.0249 7.97493 8.0249ZM2.45768 9.7124C2.45768 10.0229 2.72835 10.2749 3.06185 10.2749H13.9368C14.2703 10.2749 14.541 10.0229 14.541 9.7124C14.541 9.4019 14.2703 9.1499 13.9368 9.1499H3.06185C2.72835 9.1499 2.45768 9.4019 2.45768 9.7124ZM13.3327 18.1499H3.66602V13.6499H13.3327V18.1499ZM3.06185 12.5249H13.9368C14.2703 12.5249 14.541 12.7769 14.541 13.0874V18.7124C14.541 19.0229 14.2703 19.2749 13.9368 19.2749H3.06185C2.72835 19.2749 2.45768 19.0229 2.45768 18.7124V13.0874C2.45768 12.7769 2.72835 12.5249 3.06185 12.5249Z" fill="white" />
+                                                            </mask>
+                                                            <g mask="url(#mask0_107_21970)">
+                                                                <rect x="-6" y="-2.1001" width="29" height="27" fill="#0033AA" />
+                                                            </g>
+                                                        </svg>
+                                                        <div class="ps-2">
+                                                            <p class="contributor-summary-text">12 published articles</p>
+                                                            <a href="#" class="view-all-link">view all articles ></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="image">
+                                                    <img src="assets/images/tab/contributor-1.png" alt="contributor" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="contributor-card-body">
+                                                <h4 class="title">Latest articles</h4>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item">
+                                                        <div class="article-list">
+                                                            <h6 class="colored-heading orange">Group News</h6>
+                                                            <a href="#" class="article-title">PARTNERSHIP TO GIVE ADDITIONAL VALUE TO CLIENTS</a>
+                                                            <div class="d-flex align-items-center justify-content-between metadata">
+                                                                <p>6 hours ago &nbsp; 8 min read</p>
+                                                                <div class="d-flex align-items-center">
+                                                                    <p>12 likes &nbsp; 35 comments &nbsp; &nbsp; </p>
+                                                                    <div>
+                                                                        <div class="btn-group dropstart">
+                                                                            <button type="button" class="btn btn-primary bg-blue" style="border-radius: 20px; padding: 0px 10px; line-height: 1;" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                                <i class="fa-solid fa-ellipsis"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu rounded-4">
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            share
+                                                                                        </span> Share this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            star_rate
+                                                                                        </span> Bookmark this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            add_alert
+                                                                                        </span> Subscribe to this </a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <div class="article-list">
+                                                            <h6 class="colored-heading red">Growing Africa</h6>
+                                                            <a href="#" class="article-title">STANDARD BANK VIRTUAL 100-MILE CHARITY WALKATHON</a>
+                                                            <div class="d-flex align-items-center justify-content-between metadata">
+                                                                <p>6 hours ago &nbsp; 8 min read</p>
+                                                                <div class="d-flex align-items-center">
+                                                                    <p>12 likes &nbsp; 35 comments &nbsp; &nbsp; </p>
+                                                                    <div>
+                                                                        <div class="btn-group dropstart">
+                                                                            <button type="button" class="btn btn-primary bg-blue" style="border-radius: 20px; padding: 0px 10px; line-height: 1;" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                                <i class="fa-solid fa-ellipsis"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu rounded-4">
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            share
+                                                                                        </span> Share this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            star_rate
+                                                                                        </span> Bookmark this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            add_alert
+                                                                                        </span> Subscribe to this </a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <div class="article-list">
+                                                            <h6 class="colored-heading green">Celebrating Success</h6>
+                                                            <a href="#" class="article-title">Grit, the power behind today’s successful people </a>
+                                                            <div class="d-flex align-items-center justify-content-between metadata">
+                                                                <p>6 hours ago &nbsp; 8 min read</p>
+                                                                <div class="d-flex align-items-center">
+                                                                    <p>12 likes &nbsp; 35 comments &nbsp; &nbsp; </p>
+                                                                    <div>
+                                                                        <div class="btn-group dropstart">
+                                                                            <button type="button" class="btn btn-primary bg-blue" style="border-radius: 20px; padding: 0px 10px; line-height: 1;" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                                <i class="fa-solid fa-ellipsis"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu rounded-4">
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            share
+                                                                                        </span> Share this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            star_rate
+                                                                                        </span> Bookmark this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            add_alert
+                                                                                        </span> Subscribe to this </a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="contributor-card">
+                                            <div class="contributor-card-header d-flex align-items-center justify-content-between">
+                                                <div class="text">
+                                                    <h4 class="name">Name Surname</h4>
+                                                    <p class="designation">Job title</p>
+                                                    <div class="d-flex align-items-center contributor-summary">
+                                                        <svg width="17" height="23" viewBox="0 0 17 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7493 20.3999C15.7493 21.0209 15.208 21.5249 14.541 21.5249H2.45768C1.79068 21.5249 1.24935 21.0209 1.24935 20.3999V2.3999C1.24935 1.7789 1.79068 1.2749 2.45768 1.2749H10.916V5.2124C10.916 5.5229 11.1867 5.7749 11.5202 5.7749H15.7493V20.3999ZM16.7813 4.81415L11.9479 0.314152C11.8343 0.209527 11.6809 0.149902 11.5202 0.149902H2.45768C1.12489 0.149902 0.0410156 1.15903 0.0410156 2.3999V20.3999C0.0410156 21.6408 1.12489 22.6499 2.45768 22.6499H14.541C15.8738 22.6499 16.9577 21.6408 16.9577 20.3999V5.2124C16.9577 5.06278 16.8936 4.9199 16.7813 4.81415ZM3.06185 5.7749H7.97493C8.30964 5.7749 8.5791 5.5229 8.5791 5.2124C8.5791 4.9019 8.30964 4.6499 7.97493 4.6499H3.06185C2.72835 4.6499 2.45768 4.9019 2.45768 5.2124C2.45768 5.5229 2.72835 5.7749 3.06185 5.7749ZM7.97493 8.0249H3.06185C2.72835 8.0249 2.45768 7.7729 2.45768 7.4624C2.45768 7.1519 2.72835 6.8999 3.06185 6.8999H7.97493C8.30964 6.8999 8.5791 7.1519 8.5791 7.4624C8.5791 7.7729 8.30964 8.0249 7.97493 8.0249ZM2.45768 9.7124C2.45768 10.0229 2.72835 10.2749 3.06185 10.2749H13.9368C14.2703 10.2749 14.541 10.0229 14.541 9.7124C14.541 9.4019 14.2703 9.1499 13.9368 9.1499H3.06185C2.72835 9.1499 2.45768 9.4019 2.45768 9.7124ZM13.3327 18.1499H3.66602V13.6499H13.3327V18.1499ZM3.06185 12.5249H13.9368C14.2703 12.5249 14.541 12.7769 14.541 13.0874V18.7124C14.541 19.0229 14.2703 19.2749 13.9368 19.2749H3.06185C2.72835 19.2749 2.45768 19.0229 2.45768 18.7124V13.0874C2.45768 12.7769 2.72835 12.5249 3.06185 12.5249Z" fill="#767676" />
+                                                            <mask id="mask0_107_21970" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="17" height="23">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7493 20.3999C15.7493 21.0209 15.208 21.5249 14.541 21.5249H2.45768C1.79068 21.5249 1.24935 21.0209 1.24935 20.3999V2.3999C1.24935 1.7789 1.79068 1.2749 2.45768 1.2749H10.916V5.2124C10.916 5.5229 11.1867 5.7749 11.5202 5.7749H15.7493V20.3999ZM16.7813 4.81415L11.9479 0.314152C11.8343 0.209527 11.6809 0.149902 11.5202 0.149902H2.45768C1.12489 0.149902 0.0410156 1.15903 0.0410156 2.3999V20.3999C0.0410156 21.6408 1.12489 22.6499 2.45768 22.6499H14.541C15.8738 22.6499 16.9577 21.6408 16.9577 20.3999V5.2124C16.9577 5.06278 16.8936 4.9199 16.7813 4.81415ZM3.06185 5.7749H7.97493C8.30964 5.7749 8.5791 5.5229 8.5791 5.2124C8.5791 4.9019 8.30964 4.6499 7.97493 4.6499H3.06185C2.72835 4.6499 2.45768 4.9019 2.45768 5.2124C2.45768 5.5229 2.72835 5.7749 3.06185 5.7749ZM7.97493 8.0249H3.06185C2.72835 8.0249 2.45768 7.7729 2.45768 7.4624C2.45768 7.1519 2.72835 6.8999 3.06185 6.8999H7.97493C8.30964 6.8999 8.5791 7.1519 8.5791 7.4624C8.5791 7.7729 8.30964 8.0249 7.97493 8.0249ZM2.45768 9.7124C2.45768 10.0229 2.72835 10.2749 3.06185 10.2749H13.9368C14.2703 10.2749 14.541 10.0229 14.541 9.7124C14.541 9.4019 14.2703 9.1499 13.9368 9.1499H3.06185C2.72835 9.1499 2.45768 9.4019 2.45768 9.7124ZM13.3327 18.1499H3.66602V13.6499H13.3327V18.1499ZM3.06185 12.5249H13.9368C14.2703 12.5249 14.541 12.7769 14.541 13.0874V18.7124C14.541 19.0229 14.2703 19.2749 13.9368 19.2749H3.06185C2.72835 19.2749 2.45768 19.0229 2.45768 18.7124V13.0874C2.45768 12.7769 2.72835 12.5249 3.06185 12.5249Z" fill="white" />
+                                                            </mask>
+                                                            <g mask="url(#mask0_107_21970)">
+                                                                <rect x="-6" y="-2.1001" width="29" height="27" fill="#0033AA" />
+                                                            </g>
+                                                        </svg>
+                                                        <div class="ps-2">
+                                                            <p class="contributor-summary-text">12 published articles</p>
+                                                            <a href="#" class="view-all-link">view all articles ></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="image">
+                                                    <img src="assets/images/tab/contributor-2.png" alt="contributor" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="contributor-card-body">
+                                                <h4 class="title">Latest articles</h4>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item">
+                                                        <div class="article-list">
+                                                            <h6 class="colored-heading orange">Group News</h6>
+                                                            <a href="#" class="article-title">PARTNERSHIP TO GIVE ADDITIONAL VALUE TO CLIENTS</a>
+                                                            <div class="d-flex align-items-center justify-content-between metadata">
+                                                                <p>6 hours ago &nbsp; 8 min read</p>
+                                                                <div class="d-flex align-items-center">
+                                                                    <p>12 likes &nbsp; 35 comments &nbsp; &nbsp; </p>
+                                                                    <div>
+                                                                        <div class="btn-group dropstart">
+                                                                            <button type="button" class="btn btn-primary bg-blue" style="border-radius: 20px; padding: 0px 10px; line-height: 1;" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                                <i class="fa-solid fa-ellipsis"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu rounded-4">
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            share
+                                                                                        </span> Share this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            star_rate
+                                                                                        </span> Bookmark this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            add_alert
+                                                                                        </span> Subscribe to this </a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <div class="article-list">
+                                                            <h6 class="colored-heading red">Growing Africa</h6>
+                                                            <a href="#" class="article-title">STANDARD BANK VIRTUAL 100-MILE CHARITY WALKATHON</a>
+                                                            <div class="d-flex align-items-center justify-content-between metadata">
+                                                                <p>6 hours ago &nbsp; 8 min read</p>
+                                                                <div class="d-flex align-items-center">
+                                                                    <p>12 likes &nbsp; 35 comments &nbsp; &nbsp; </p>
+                                                                    <div>
+                                                                        <div class="btn-group dropstart">
+                                                                            <button type="button" class="btn btn-primary bg-blue" style="border-radius: 20px; padding: 0px 10px; line-height: 1;" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                                <i class="fa-solid fa-ellipsis"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu rounded-4">
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            share
+                                                                                        </span> Share this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            star_rate
+                                                                                        </span> Bookmark this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            add_alert
+                                                                                        </span> Subscribe to this </a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <div class="article-list">
+                                                            <h6 class="colored-heading green">Celebrating Success</h6>
+                                                            <a href="#" class="article-title">Grit, the power behind today’s successful people </a>
+                                                            <div class="d-flex align-items-center justify-content-between metadata">
+                                                                <p>6 hours ago &nbsp; 8 min read</p>
+                                                                <div class="d-flex align-items-center">
+                                                                    <p>12 likes &nbsp; 35 comments &nbsp; &nbsp; </p>
+                                                                    <div>
+                                                                        <div class="btn-group dropstart">
+                                                                            <button type="button" class="btn btn-primary bg-blue" style="border-radius: 20px; padding: 0px 10px; line-height: 1;" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                                <i class="fa-solid fa-ellipsis"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu rounded-4">
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            share
+                                                                                        </span> Share this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            star_rate
+                                                                                        </span> Bookmark this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            add_alert
+                                                                                        </span> Subscribe to this </a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="contributor-card">
+                                            <div class="contributor-card-header d-flex align-items-center justify-content-between">
+                                                <div class="text">
+                                                    <h4 class="name">Name Surname</h4>
+                                                    <p class="designation">Job title</p>
+                                                    <div class="d-flex align-items-center contributor-summary">
+                                                        <svg width="17" height="23" viewBox="0 0 17 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7493 20.3999C15.7493 21.0209 15.208 21.5249 14.541 21.5249H2.45768C1.79068 21.5249 1.24935 21.0209 1.24935 20.3999V2.3999C1.24935 1.7789 1.79068 1.2749 2.45768 1.2749H10.916V5.2124C10.916 5.5229 11.1867 5.7749 11.5202 5.7749H15.7493V20.3999ZM16.7813 4.81415L11.9479 0.314152C11.8343 0.209527 11.6809 0.149902 11.5202 0.149902H2.45768C1.12489 0.149902 0.0410156 1.15903 0.0410156 2.3999V20.3999C0.0410156 21.6408 1.12489 22.6499 2.45768 22.6499H14.541C15.8738 22.6499 16.9577 21.6408 16.9577 20.3999V5.2124C16.9577 5.06278 16.8936 4.9199 16.7813 4.81415ZM3.06185 5.7749H7.97493C8.30964 5.7749 8.5791 5.5229 8.5791 5.2124C8.5791 4.9019 8.30964 4.6499 7.97493 4.6499H3.06185C2.72835 4.6499 2.45768 4.9019 2.45768 5.2124C2.45768 5.5229 2.72835 5.7749 3.06185 5.7749ZM7.97493 8.0249H3.06185C2.72835 8.0249 2.45768 7.7729 2.45768 7.4624C2.45768 7.1519 2.72835 6.8999 3.06185 6.8999H7.97493C8.30964 6.8999 8.5791 7.1519 8.5791 7.4624C8.5791 7.7729 8.30964 8.0249 7.97493 8.0249ZM2.45768 9.7124C2.45768 10.0229 2.72835 10.2749 3.06185 10.2749H13.9368C14.2703 10.2749 14.541 10.0229 14.541 9.7124C14.541 9.4019 14.2703 9.1499 13.9368 9.1499H3.06185C2.72835 9.1499 2.45768 9.4019 2.45768 9.7124ZM13.3327 18.1499H3.66602V13.6499H13.3327V18.1499ZM3.06185 12.5249H13.9368C14.2703 12.5249 14.541 12.7769 14.541 13.0874V18.7124C14.541 19.0229 14.2703 19.2749 13.9368 19.2749H3.06185C2.72835 19.2749 2.45768 19.0229 2.45768 18.7124V13.0874C2.45768 12.7769 2.72835 12.5249 3.06185 12.5249Z" fill="#767676" />
+                                                            <mask id="mask0_107_21970" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="17" height="23">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7493 20.3999C15.7493 21.0209 15.208 21.5249 14.541 21.5249H2.45768C1.79068 21.5249 1.24935 21.0209 1.24935 20.3999V2.3999C1.24935 1.7789 1.79068 1.2749 2.45768 1.2749H10.916V5.2124C10.916 5.5229 11.1867 5.7749 11.5202 5.7749H15.7493V20.3999ZM16.7813 4.81415L11.9479 0.314152C11.8343 0.209527 11.6809 0.149902 11.5202 0.149902H2.45768C1.12489 0.149902 0.0410156 1.15903 0.0410156 2.3999V20.3999C0.0410156 21.6408 1.12489 22.6499 2.45768 22.6499H14.541C15.8738 22.6499 16.9577 21.6408 16.9577 20.3999V5.2124C16.9577 5.06278 16.8936 4.9199 16.7813 4.81415ZM3.06185 5.7749H7.97493C8.30964 5.7749 8.5791 5.5229 8.5791 5.2124C8.5791 4.9019 8.30964 4.6499 7.97493 4.6499H3.06185C2.72835 4.6499 2.45768 4.9019 2.45768 5.2124C2.45768 5.5229 2.72835 5.7749 3.06185 5.7749ZM7.97493 8.0249H3.06185C2.72835 8.0249 2.45768 7.7729 2.45768 7.4624C2.45768 7.1519 2.72835 6.8999 3.06185 6.8999H7.97493C8.30964 6.8999 8.5791 7.1519 8.5791 7.4624C8.5791 7.7729 8.30964 8.0249 7.97493 8.0249ZM2.45768 9.7124C2.45768 10.0229 2.72835 10.2749 3.06185 10.2749H13.9368C14.2703 10.2749 14.541 10.0229 14.541 9.7124C14.541 9.4019 14.2703 9.1499 13.9368 9.1499H3.06185C2.72835 9.1499 2.45768 9.4019 2.45768 9.7124ZM13.3327 18.1499H3.66602V13.6499H13.3327V18.1499ZM3.06185 12.5249H13.9368C14.2703 12.5249 14.541 12.7769 14.541 13.0874V18.7124C14.541 19.0229 14.2703 19.2749 13.9368 19.2749H3.06185C2.72835 19.2749 2.45768 19.0229 2.45768 18.7124V13.0874C2.45768 12.7769 2.72835 12.5249 3.06185 12.5249Z" fill="white" />
+                                                            </mask>
+                                                            <g mask="url(#mask0_107_21970)">
+                                                                <rect x="-6" y="-2.1001" width="29" height="27" fill="#0033AA" />
+                                                            </g>
+                                                        </svg>
+                                                        <div class="ps-2">
+                                                            <p class="contributor-summary-text">12 published articles</p>
+                                                            <a href="#" class="view-all-link">view all articles ></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="image">
+                                                    <img src="assets/images/tab/contributor-3.png" alt="contributor" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="contributor-card-body">
+                                                <h4 class="title">Latest articles</h4>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item">
+                                                        <div class="article-list">
+                                                            <h6 class="colored-heading orange">Group News</h6>
+                                                            <a href="#" class="article-title">PARTNERSHIP TO GIVE ADDITIONAL VALUE TO CLIENTS</a>
+                                                            <div class="d-flex align-items-center justify-content-between metadata">
+                                                                <p>6 hours ago &nbsp; 8 min read</p>
+                                                                <div class="d-flex align-items-center">
+                                                                    <p>12 likes &nbsp; 35 comments &nbsp; &nbsp; </p>
+                                                                    <div>
+                                                                        <div class="btn-group dropstart">
+                                                                            <button type="button" class="btn btn-primary bg-blue" style="border-radius: 20px; padding: 0px 10px; line-height: 1;" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                                <i class="fa-solid fa-ellipsis"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu rounded-4">
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            share
+                                                                                        </span> Share this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            star_rate
+                                                                                        </span> Bookmark this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            add_alert
+                                                                                        </span> Subscribe to this </a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <div class="article-list">
+                                                            <h6 class="colored-heading red">Growing Africa</h6>
+                                                            <a href="#" class="article-title">STANDARD BANK VIRTUAL 100-MILE CHARITY WALKATHON</a>
+                                                            <div class="d-flex align-items-center justify-content-between metadata">
+                                                                <p>6 hours ago &nbsp; 8 min read</p>
+                                                                <div class="d-flex align-items-center">
+                                                                    <p>12 likes &nbsp; 35 comments &nbsp; &nbsp; </p>
+                                                                    <div>
+                                                                        <div class="btn-group dropstart">
+                                                                            <button type="button" class="btn btn-primary bg-blue" style="border-radius: 20px; padding: 0px 10px; line-height: 1;" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                                <i class="fa-solid fa-ellipsis"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu rounded-4">
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            share
+                                                                                        </span> Share this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            star_rate
+                                                                                        </span> Bookmark this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            add_alert
+                                                                                        </span> Subscribe to this </a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <div class="article-list">
+                                                            <h6 class="colored-heading green">Celebrating Success</h6>
+                                                            <a href="#" class="article-title">Grit, the power behind today’s successful people </a>
+                                                            <div class="d-flex align-items-center justify-content-between metadata">
+                                                                <p>6 hours ago &nbsp; 8 min read</p>
+                                                                <div class="d-flex align-items-center">
+                                                                    <p>12 likes &nbsp; 35 comments &nbsp; &nbsp; </p>
+                                                                    <div>
+                                                                        <div class="btn-group dropstart">
+                                                                            <button type="button" class="btn btn-primary bg-blue" style="border-radius: 20px; padding: 0px 10px; line-height: 1;" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                                <i class="fa-solid fa-ellipsis"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu rounded-4">
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            share
+                                                                                        </span> Share this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            star_rate
+                                                                                        </span> Bookmark this article</a></li>
+                                                                                <li><a class="dropdown-item d-flex align-items-center text-blue" href="#"><span class="material-symbols-outlined pe-2">
+                                                                                            add_alert
+                                                                                        </span> Subscribe to this </a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 offset-lg-8">
+                                        <button class="btn btn-primary blue-btn bg-blue rounded-3 w-100 py-2"><small class="text-white text-uppercase">view all our contributors</small></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1255,7 +1634,21 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center activity-card-header">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/icon/Plum.png" alt="icon" class="img-fluid">
+                                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.9994 1.70361C11.2378 1.70361 1.70313 11.2383 1.70312 22.9999C1.70312 34.7615 11.2378 44.2962 22.9994 44.2962C34.761 44.2962 44.2957 34.7615 44.2957 22.9999C44.2957 11.2383 34.761 1.70361 22.9994 1.70361Z" fill="url(#paint0_linear_107_34807)" stroke="#E3E6EA" stroke-width="3.33333" />
+                                            <path d="M18.2089 16.6108C17.9149 16.6108 17.6765 16.8492 17.6765 17.1432C17.6765 17.4373 17.9149 17.6756 18.2089 17.6756H22.5427C22.8367 17.6756 23.0751 17.4373 23.0751 17.1432C23.0751 16.8492 22.8367 16.6108 22.5427 16.6108H18.2089Z" fill="white" />
+                                            <path d="M18.2089 18.7405C17.9149 18.7405 17.6765 18.9788 17.6765 19.2729C17.6765 19.5669 17.9149 19.8053 18.2089 19.8053H22.5427C22.8367 19.8053 23.0751 19.5669 23.0751 19.2729C23.0751 18.9788 22.8367 18.7405 22.5427 18.7405H18.2089Z" fill="white" />
+                                            <path d="M17.6765 21.4025C17.6765 21.1084 17.9149 20.8701 18.2089 20.8701H27.7922C28.0863 20.8701 28.3247 21.1084 28.3247 21.4025C28.3247 21.6965 28.0863 21.9349 27.7922 21.9349H18.2089C17.9149 21.9349 17.6765 21.6965 17.6765 21.4025Z" fill="white" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.2089 24.0645C17.9149 24.0645 17.6765 24.3029 17.6765 24.5969V29.921C17.6765 30.215 17.9149 30.4534 18.2089 30.4534H27.7922C28.0863 30.4534 28.3247 30.215 28.3247 29.921V24.5969C28.3247 24.3029 28.0863 24.0645 27.7922 24.0645H18.2089ZM18.7413 29.3886V25.1293H27.2598V29.3886H18.7413Z" fill="white" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9865 16.4549C30.286 16.7544 30.4543 17.1607 30.4543 17.5843V32.0506C30.4543 32.9328 29.7392 33.6479 28.8571 33.6479H17.1441C16.262 33.6479 15.5469 32.9328 15.5469 32.0506V13.9488C15.5469 13.0667 16.262 12.3516 17.1441 12.3516H25.2216C25.6452 12.3516 26.0514 12.5198 26.351 12.8194L29.9865 16.4549ZM16.6117 13.9488C16.6117 13.6547 16.8501 13.4164 17.1441 13.4164H25.1302V16.9303C25.1302 17.3419 25.4639 17.6756 25.8756 17.6756H29.3895V32.0506C29.3895 32.3447 29.1511 32.583 28.8571 32.583H17.1441C16.8501 32.583 16.6117 32.3447 16.6117 32.0506V13.9488ZM28.6365 16.6108L26.195 14.1693V16.6108H28.6365Z" fill="white" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_107_34807" x1="1.70313" y1="1.70361" x2="53.0821" y2="24.4488" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#CC6696" />
+                                                    <stop offset="0.588542" stop-color="#AA0050" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+
                                     </div>
                                     <h4>My recent documents</h4>
                                 </div>
@@ -1338,7 +1731,19 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center activity-card-header">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/icon/Mauve.png" alt="icon" class="img-fluid">
+                                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.9994 1.70361C11.2378 1.70361 1.70313 11.2383 1.70312 22.9999C1.70312 34.7615 11.2378 44.2962 22.9994 44.2962C34.761 44.2962 44.2957 34.7615 44.2957 22.9999C44.2957 11.2383 34.761 1.70361 22.9994 1.70361Z" fill="url(#paint0_linear_107_34732)" stroke="#E3E6EA" stroke-width="3.33333" />
+                                            <path d="M12.3516 15.0136C12.3516 13.5434 13.5434 12.3516 15.0136 12.3516H22.4673C23.9375 12.3516 25.1293 13.5434 25.1293 15.0136V15.546C25.1293 15.84 24.891 16.0784 24.5969 16.0784C24.3029 16.0784 24.0645 15.84 24.0645 15.546V15.0136C24.0645 14.1315 23.3494 13.4164 22.4673 13.4164H15.0136C14.1315 13.4164 13.4164 14.1315 13.4164 15.0136V30.9858C13.4164 31.8679 14.1315 32.583 15.0136 32.583H22.4673C23.3494 32.583 24.0645 31.8679 24.0645 30.9858V30.4534C24.0645 30.1594 24.3029 29.921 24.5969 29.921C24.891 29.921 25.1293 30.1594 25.1293 30.4534V30.9858C25.1293 32.456 23.9375 33.6479 22.4673 33.6479H15.0136C13.5434 33.6479 12.3516 32.456 12.3516 30.9858V15.0136Z" fill="white" />
+                                            <path d="M18.7405 30.9858C19.3285 30.9858 19.8053 30.5091 19.8053 29.921C19.8053 29.3329 19.3285 28.8562 18.7405 28.8562C18.1524 28.8562 17.6756 29.3329 17.6756 29.921C17.6756 30.5091 18.1524 30.9858 18.7405 30.9858Z" fill="white" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M25.6617 16.6108C22.1333 16.6108 19.2729 19.4712 19.2729 22.9997C19.2729 26.5282 22.1333 29.3886 25.6617 29.3886C29.1902 29.3886 32.0506 26.5282 32.0506 22.9997C32.0506 19.4712 29.1902 16.6108 25.6617 16.6108ZM21.3386 20.9935C21.0795 21.0877 20.8352 21.1928 20.6117 21.3092C21.1405 19.7286 22.3907 18.4785 23.9713 17.9496C23.8549 18.1732 23.7497 18.4175 23.6555 18.6766C23.4601 19.214 23.3025 19.8407 23.1907 20.5287C22.5027 20.6404 21.876 20.7981 21.3386 20.9935ZM23.056 21.6334C22.5501 21.7294 22.094 21.8519 21.7025 21.9942C21.2065 22.1746 20.8426 22.3768 20.6126 22.5745C20.3809 22.7737 20.3377 22.9192 20.3377 22.9997C20.3377 23.0802 20.3809 23.2257 20.6126 23.4249C20.8426 23.6227 21.2065 23.8249 21.7025 24.0052C22.094 24.1476 22.5501 24.27 23.056 24.366C23.0191 23.9251 22.9997 23.4677 22.9997 22.9997C22.9997 22.5317 23.0191 22.0743 23.056 21.6334ZM24.1398 24.5217C24.091 24.0401 24.0645 23.5297 24.0645 22.9997C24.0645 22.4698 24.091 21.9594 24.1398 21.4777C24.6214 21.4289 25.1318 21.4025 25.6617 21.4025C26.1917 21.4025 26.7021 21.4289 27.1837 21.4777C27.2325 21.9594 27.259 22.4698 27.259 22.9997C27.259 23.5297 27.2325 24.0401 27.1837 24.5217C26.7021 24.5705 26.1917 24.5969 25.6617 24.5969C25.1318 24.5969 24.6214 24.5705 24.1398 24.5217ZM23.1907 25.4707C22.5027 25.359 21.876 25.2013 21.3386 25.0059C21.0795 24.9117 20.8352 24.8066 20.6117 24.6902C21.1405 26.2708 22.3907 27.5209 23.9713 28.0498C23.8549 27.8262 23.7497 27.5819 23.6555 27.3228C23.4601 26.7855 23.3025 26.1587 23.1907 25.4707ZM25.6617 28.3238C25.5813 28.3238 25.4357 28.2806 25.2365 28.0489C25.0388 27.8189 24.8366 27.4549 24.6562 26.9589C24.5139 26.5675 24.3914 26.1113 24.2955 25.6054C24.7364 25.6424 25.1937 25.6617 25.6617 25.6617C26.1298 25.6617 26.5871 25.6424 27.028 25.6054C26.9321 26.1113 26.8096 26.5675 26.6673 26.9589C26.4869 27.4549 26.2847 27.8189 26.087 28.0489C25.8878 28.2806 25.7422 28.3238 25.6617 28.3238ZM27.3522 28.0498C27.4686 27.8262 27.5738 27.5819 27.668 27.3228C27.8634 26.7855 28.021 26.1587 28.1328 25.4707C28.8208 25.359 29.4475 25.2013 29.9849 25.0059C30.244 24.9117 30.4883 24.8066 30.7118 24.6902C30.183 26.2708 28.9328 27.5209 27.3522 28.0498ZM28.2675 24.366C28.7734 24.27 29.2295 24.1476 29.621 24.0052C30.117 23.8249 30.4809 23.6227 30.7109 23.4249C30.9426 23.2257 30.9858 23.0802 30.9858 22.9997C30.9858 22.9192 30.9426 22.7737 30.7109 22.5745C30.4809 22.3768 30.117 22.1746 29.621 21.9942C29.2295 21.8519 28.7734 21.7294 28.2675 21.6334C28.3044 22.0743 28.3238 22.5317 28.3238 22.9997C28.3238 23.4677 28.3044 23.9251 28.2675 24.366ZM28.1328 20.5287C28.8208 20.6404 29.4475 20.7981 29.9849 20.9935C30.244 21.0877 30.4883 21.1928 30.7118 21.3092C30.183 19.7286 28.9328 18.4785 27.3522 17.9496C27.4686 18.1732 27.5738 18.4175 27.668 18.6766C27.8634 19.214 28.021 19.8407 28.1328 20.5287ZM27.028 20.394C26.5871 20.357 26.1298 20.3377 25.6617 20.3377C25.1937 20.3377 24.7364 20.357 24.2955 20.394C24.3914 19.8881 24.5139 19.4319 24.6562 19.0405C24.8366 18.5445 25.0388 18.1805 25.2365 17.9505C25.4357 17.7188 25.5813 17.6756 25.6617 17.6756C25.7422 17.6756 25.8878 17.7188 26.087 17.9505C26.2847 18.1805 26.4869 18.5445 26.6673 19.0405C26.8096 19.4319 26.9321 19.8881 27.028 20.394Z" fill="white" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_107_34732" x1="2.78266" y1="4.37183" x2="50.2322" y2="24.3417" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#D096DC" />
+                                                    <stop offset="0.598958" stop-color="#B150C5" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+
                                     </div>
                                     <h4>My recent sites</h4>
                                 </div>
@@ -1425,7 +1830,18 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center activity-card-header">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/icon/Purple_link.png" alt="icon" class="img-fluid">
+                                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.8778 2.09082C11.3301 2.09082 1.96875 11.4521 1.96875 22.9999C1.96875 34.5477 11.3301 43.909 22.8778 43.909C34.4256 43.909 43.7869 34.5477 43.7869 22.9999C43.7869 11.4521 34.4256 2.09082 22.8778 2.09082Z" fill="url(#paint0_linear_107_34927)" stroke="#E3E6EA" stroke-width="3.33333" />
+                                            <path d="M21.6634 23.2645L21.2938 22.8949C21.0897 22.6907 20.7587 22.6907 20.5546 22.8949C20.3504 23.099 20.3504 23.43 20.5546 23.6341L20.9242 24.0037C22.3532 25.4327 24.67 25.4327 26.0989 24.0037L30.5344 19.5682C31.9634 18.1393 31.9634 15.8225 30.5344 14.3935C29.1055 12.9645 26.7886 12.9645 25.3597 14.3935L22.4027 17.3505C22.1985 17.5546 22.1985 17.8856 22.4027 18.0897C22.6068 18.2939 22.9378 18.2939 23.1419 18.0897L26.0989 15.1327C27.1196 14.1121 28.7745 14.1121 29.7952 15.1327C30.8159 16.1534 30.8159 17.8083 29.7952 18.829L25.3597 23.2645C24.339 24.2852 22.6841 24.2852 21.6634 23.2645Z" fill="white" />
+                                            <path d="M19.4457 21.7859C20.4664 20.7652 22.1212 20.7652 23.1419 21.7859L23.5115 22.1556C23.7157 22.3597 24.0467 22.3597 24.2508 22.1556C24.4549 21.9514 24.4549 21.6204 24.2508 21.4163L23.8812 21.0467C22.4522 19.6177 20.1354 19.6177 18.7064 21.0467L14.2709 25.4822C12.842 26.9111 12.842 29.2279 14.2709 30.6569C15.6999 32.0859 18.0167 32.0859 19.4457 30.6569L22.4027 27.6999C22.6068 27.4958 22.6068 27.1648 22.4027 26.9607C22.1985 26.7565 21.8676 26.7565 21.6634 26.9607L18.7064 29.9177C17.6857 30.9383 16.0309 30.9383 15.0102 29.9177C13.9895 28.897 13.9895 27.2421 15.0102 26.2214L19.4457 21.7859Z" fill="white" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_107_34927" x1="3.02866" y1="4.71052" x2="49.6155" y2="24.3173" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#A39EDD" />
+                                                    <stop offset="0.598958" stop-color="#665EC7" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+
                                     </div>
                                     <h4>My quick links</h4>
                                 </div>
@@ -1481,7 +1897,20 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center feed-card-header">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/icon/Purple_grid.png" alt="icon" class="img-fluid">
+                                        <svg width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M23.5946 2.09082C12.0469 2.09082 2.68555 11.4521 2.68555 22.9999C2.68555 34.5477 12.0469 43.909 23.5946 43.909C35.1424 43.909 44.5037 34.5477 44.5037 22.9999C44.5037 11.4521 35.1424 2.09082 23.5946 2.09082Z" fill="url(#paint0_linear_107_34749)" stroke="#E3E6EA" stroke-width="4" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1406 13.0681C13.1406 12.7794 13.3747 12.5454 13.6634 12.5454H22.027C22.3157 12.5454 22.5497 12.7794 22.5497 13.0681V23.5227C22.5497 23.8114 22.3157 24.0454 22.027 24.0454H13.6634C13.3747 24.0454 13.1406 23.8114 13.1406 23.5227V13.0681ZM14.1861 13.5909V23H21.5043V13.5909H14.1861Z" fill="white" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24.6406 22.4772C24.6406 22.1885 24.8747 21.9545 25.1634 21.9545H33.527C33.8157 21.9545 34.0497 22.1885 34.0497 22.4772V32.9318C34.0497 33.2205 33.8157 33.4545 33.527 33.4545H25.1634C24.8747 33.4545 24.6406 33.2205 24.6406 32.9318V22.4772ZM25.6861 23V32.409H33.0043V23H25.6861Z" fill="white" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1406 26.6486C13.1406 26.3599 13.3747 26.1259 13.6634 26.1259H22.027C22.3157 26.1259 22.5497 26.3599 22.5497 26.6486V32.9213C22.5497 33.21 22.3157 33.444 22.027 33.444H13.6634C13.3747 33.444 13.1406 33.21 13.1406 32.9213V26.6486ZM14.1861 27.1713V32.3986H21.5043V27.1713H14.1861Z" fill="white" />
+                                            <path d="M24.6406 13.0681C24.6406 12.7794 24.8747 12.5454 25.1634 12.5454H33.527C33.8157 12.5454 34.0497 12.7794 34.0497 13.0681V19.3409C34.0497 19.6296 33.8157 19.8636 33.527 19.8636H25.1634C24.8747 19.8636 24.6406 19.6296 24.6406 19.3409V13.0681Z" fill="white" />
+                                            <defs>
+                                                <linearGradient id="paint0_linear_107_34749" x1="3.74545" y1="4.71052" x2="50.3323" y2="24.3173" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#A39EDD" />
+                                                    <stop offset="0.598958" stop-color="#665EC7" />
+                                                </linearGradient>
+                                            </defs>
+                                        </svg>
+
                                     </div>
                                     <h4>My personal feed</h4>
                                 </div>
@@ -1517,7 +1946,21 @@
                             <div class="card-body">
                                 <div class="d-flex align-items-center feed-card-header">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/icon/Stream.png" alt="icon" class="img-fluid">
+                                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M23.9994 2.70361C12.2378 2.70361 2.70313 12.2383 2.70312 23.9999C2.70312 35.7615 12.2378 45.2962 23.9994 45.2962C35.761 45.2962 45.2957 35.7615 45.2957 23.9999C45.2957 12.2383 35.761 2.70361 23.9994 2.70361V2.70361Z" fill="url(#paint0_linear_107_34991)" stroke="#E3E6EA" stroke-width="4" />
+                                            <rect x="11.2227" y="11.2222" width="25.5556" height="25.5556" fill="url(#pattern0)" />
+                                            <defs>
+                                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                    <use xlink:href="#image0_107_34991" transform="translate(0 0.01) scale(0.0025)" />
+                                                </pattern>
+                                                <linearGradient id="paint0_linear_107_34991" x1="3.78266" y1="5.37183" x2="51.2322" y2="25.3417" gradientUnits="userSpaceOnUse">
+                                                    <stop stop-color="#F1D4B9" />
+                                                    <stop offset="0.598958" stop-color="#E7B78A" />
+                                                </linearGradient>
+                                                <image id="image0_107_34991" width="400" height="392" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGICAYAAABvOrY6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDkuMC1jMDAwIDc5LjE3MWMyN2ZhYiwgMjAyMi8wOC8xNi0yMjozNTo0MSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QkZDMjc0ODc3MjIyMTFFRDg0Qjc5N0NERTEwQUI1NjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QkZDMjc0ODg3MjIyMTFFRDg0Qjc5N0NERTEwQUI1NjMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCRkMyNzQ4NTcyMjIxMUVEODRCNzk3Q0RFMTBBQjU2MyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCRkMyNzQ4NjcyMjIxMUVEODRCNzk3Q0RFMTBBQjU2MyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnNbNCUAAFGVSURBVHja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" />
+                                            </defs>
+                                        </svg>
+
                                     </div>
                                     <h4>Group Stream feed</h4>
                                 </div>

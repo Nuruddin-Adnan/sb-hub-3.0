@@ -120,6 +120,18 @@
 
         // latest-news start
         .latest-news-lg {
+            .badge-text {
+                font-size: 14px;
+                color: #1A314D;
+                font-family: BentonSansMedium;
+                background-color: #E7B78A;
+                position: absolute;
+                left: 0;
+                bottom: -18px;
+                padding: 8px 50px 8px 10px;
+                clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+            }
+
             .card-title {
                 .text {
                     font-size: 16px;
@@ -281,8 +293,116 @@
         // end of my-subscriptions
 
 
-        // ? start
-        // end of ?
+        // contributors start
+        #contributors {
+            .contributor-card {
+
+                .contributor-card-header {
+                    background-color: #F2F3F4;
+                    border-radius: 1rem;
+                    padding: 10px 15px;
+
+                    .text {
+                        .name {
+                            font-size: 14px;
+                            color: #0A2240;
+                            position: relative;
+
+                            &::after {
+                                content: '';
+                                width: 60px;
+                                height: 2px;
+                                border-radius: 3px;
+                                background-color: #0A2240;
+                                position: absolute;
+                                left: 0;
+                                top: calc(100% + 4px);
+                            }
+                        }
+
+                        .designation {
+                            font-size: 12px;
+                            color: #4F637C;
+                        }
+
+                        .contributor-summary {
+                            .contributor-summary-text {
+                                font-size: 10px;
+                                color: #4F637C;
+                                margin-bottom: 0;
+                                ;
+                            }
+
+                            .view-all-link {
+                                font-size: 10px;
+                                font-family: BentonSansMedium;
+                                color: #0062E1;
+                                text-transform: uppercase;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+
+                .contributor-card-body {
+                    .title {
+                        font-size: 14px;
+                        color: #1A314D;
+                        font-family: BentonSansMedium;
+                        text-transform: uppercase;
+                        padding-top: 25px;
+                        padding-bottom: 5px;
+                        padding-left: 15px;
+                        margin-bottom: 0;
+                    }
+
+                    .article-list {
+                        .colored-heading {
+                            font-size: 12px;
+                            font-family: BentonSansMedium;
+                            padding-top: 5px;
+
+                            &.green {
+                                color: #00AF43;
+                            }
+
+                            &.orange {
+                                color: #FF681D;
+                            }
+
+                            &.red {
+                                color: #AA0050;
+                            }
+                        }
+
+                        .article-title {
+                            font-size: 14px;
+                            color: #0062E1;
+                            font-family: BentonSansMedium;
+                            text-transform: uppercase;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 2;
+                            line-clamp: 2;
+                            -webkit-box-orient: vertical;
+                        }
+
+                        .metadata p {
+                            font-size: 12px;
+                            color: #3C4B6C;
+                            margin-bottom: 0;
+
+                            @media screen and (max-width: 1199px) {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // end of contributors
 
     }
 
