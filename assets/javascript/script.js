@@ -1,6 +1,6 @@
 // world clock slider
 const clockSwiper = new Swiper(".clockSwiper", {
-    slidesPerView: 2,
+    slidesPerView: 3,
     spaceBetween: 5,
     breakpoints: {
         640: {
@@ -27,6 +27,26 @@ const clockSwiper = new Swiper(".clockSwiper", {
     navigation: {
         nextEl: ".world-clock-next",
         prevEl: ".world-clock-prev",
+    },
+});
+
+// nav-tab slider
+const navTab = new Swiper(".navTabSwiper", {
+    slidesPerView: 2,
+    spaceBetween: 0,
+    breakpoints: {
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 0,
+        }
+    },
+    navigation: {
+        nextEl: ".nav-tab-next",
+        prevEl: ".nav-tab-prev",
     },
 });
 
