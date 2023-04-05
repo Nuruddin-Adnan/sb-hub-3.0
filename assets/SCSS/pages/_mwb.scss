@@ -88,7 +88,7 @@
         .nav-tabs {
             .nav-link {
                 font-size: 14px;
-                color: #0062E1;
+                color: #1A314D;
                 font-family: BentonSansMedium;
                 text-transform: capitalize;
                 white-space: nowrap;
@@ -97,6 +97,10 @@
 
                 @media (max-width: 991px) {
                     font-size: 12px;
+                }
+
+                &.active {
+                    color: #0062E1;
                 }
 
                 &.active::before {
@@ -230,6 +234,47 @@
                     }
                 }
             }
+
+            .card-text {
+                font-size: 14px;
+                color: #1A314D;
+            }
+
+            .card-lg-footer {
+
+                li {
+                    font-size: 12px;
+                    color: #5C6C80;
+                    font-family: BentonSansBook;
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    padding-right: 20px;
+
+                    i {
+                        font-size: 6px;
+                        color: #E7B78A;
+                        padding-right: 10px;
+                    }
+                }
+
+                p {
+                    font-size: 12px;
+                    color: #5C6C80;
+                    font-family: BentonSansBook;
+                    margin: 0;
+                }
+
+                .user-avatar {
+                    img {
+                        margin-left: -12px;
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+            }
         }
 
         .news-sm {
@@ -319,42 +364,74 @@
 
             .my-subscriptions-card {
                 background-color: #F4F5F7;
-                border-radius: 16px;
-                padding: 1rem;
+                border-radius: 10px;
+                padding: 0.5rem 1rem;
                 height: 100%;
+                overflow: hidden;
             }
 
             .title {
-                font-size: 14px;
+                font-size: 12px;
                 font-family: BentonSansMedium;
-                color: #0062E1;
-                text-transform: uppercase;
-                position: relative;
-                margin-bottom: 15px;
+                padding: 3px 50px 3px 10px;
+                color: rgb(26, 49, 77);
+                background-color: rgb(231, 183, 138);
+                clip-path: polygon(0px 0px, 100% 0%, 90% 100%, 0% 100%);
+                width: max-content;
+                margin-left: -1rem;
+                margin-top: -.5rem;
+                min-width: 50%;
 
-                &::after {
-                    content: '';
-                    width: 60px;
-                    height: 2px;
-                    border-radius: 3px;
-                    background-color: #0033AA;
-                    position: absolute;
-                    left: 0;
-                    top: calc(100% + 4px);
+                &.green {
+                    color: #fff;
+                    background: linear-gradient(112.82deg, rgb(0, 141, 56) 3.64%, rgb(96, 182, 31) 46.9%, rgb(102, 207, 142) 95.93%);
                 }
 
-                &.green::after {
-                    background-color: #00AF43;
+                &.orange {
+                    color: #0A2240;
+                    background: linear-gradient(112.82deg, #ffb81d 3.64%, #ffb921 46.9%, #ffcb5a 95.93%);
                 }
 
-                &.yellow::after {
-                    background-color: #B5BD00;
+                &.blue {
+                    color: #fff;
+                    background: linear-gradient(90deg, #0163e1, #01bbfe);
+                }
+
+                &.gray {
+                    color: #fff;
+                    background: linear-gradient(90deg, #7c868d, #a2a9af);
+                }
+
+                &.red {
+                    color: #fff;
+                    background: linear-gradient(90deg, #aa0150, #c24680);
+                }
+
+                &.pink {
+                    color: #fff;
+                    background: linear-gradient(90deg, #b150c5, #c57dd4);
                 }
             }
 
             .description {
                 font-size: 12px;
                 color: #4F637C;
+                margin-bottom: 0;
+            }
+
+            .countries {
+                img {
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                .flags {
+                    img {
+                        margin-left: -10px;
+                    }
+                }
             }
 
             .subscription-status {
@@ -371,24 +448,27 @@
         // contributors start
         #contributors {
             .contributor-card {
+                background-color: #F2F3F4;
+                padding: 5px 0 10px 0;
+                border-radius: 10px;
 
                 .contributor-card-header {
-                    background-color: #F2F3F4;
                     border-radius: 1rem;
                     padding: 10px 15px;
 
                     .text {
                         .name {
                             font-size: 14px;
-                            color: #0A2240;
+                            color: #1A314D;
                             position: relative;
+                            font-family: BentonSansBold;
 
                             &::after {
                                 content: '';
                                 width: 60px;
                                 height: 2px;
                                 border-radius: 3px;
-                                background-color: #0A2240;
+                                background-color: rgba(#0A2240, 0.2);
                                 position: absolute;
                                 left: 0;
                                 top: calc(100% + 4px);
@@ -405,15 +485,17 @@
                                 font-size: 10px;
                                 color: #4F637C;
                                 margin-bottom: 0;
-                                ;
                             }
 
                             .view-all-link {
                                 font-size: 10px;
                                 font-family: BentonSansMedium;
                                 color: #0062E1;
-                                text-transform: uppercase;
                                 display: block;
+
+                                &::first-letter {
+                                    text-transform: uppercase;
+                                }
                             }
                         }
                     }
@@ -422,54 +504,81 @@
                 .contributor-card-body {
                     .title {
                         font-size: 14px;
-                        color: #1A314D;
+                        color: #4F637C;
                         font-family: BentonSansMedium;
-                        text-transform: uppercase;
                         padding-top: 25px;
                         padding-bottom: 5px;
                         padding-left: 15px;
                         margin-bottom: 0;
+
+                        &::first-letter {
+                            text-transform: uppercase;
+                        }
                     }
 
-                    .article-list {
-                        .colored-heading {
-                            font-size: 12px;
-                            font-family: BentonSansMedium;
-                            padding-top: 5px;
+                    .list-group-item {
+                        margin: 5px 10px;
+                        border-color: transparent;
 
-                            &.green {
-                                color: #00AF43;
+                        .article-list {
+                            .colored-heading {
+                                font-size: 12px;
+                                font-family: BentonSansMedium;
+                                padding: 3px 50px 3px 10px;
+                                color: rgb(26, 49, 77);
+                                background-color: rgb(231, 183, 138);
+                                clip-path: polygon(0px 0px, 100% 0%, 90% 100%, 0% 100%);
+                                width: max-content;
+                                margin-left: -1rem;
+                                margin-top: -.5rem;
+                                min-width: 50%;
+
+                                &.green {
+                                    color: #fff;
+                                    background: linear-gradient(112.82deg, rgb(0, 141, 56) 3.64%, rgb(96, 182, 31) 46.9%, rgb(102, 207, 142) 95.93%);
+                                }
+
+                                &.orange {
+                                    color: #0A2240;
+                                    background: linear-gradient(112.82deg, #ffb81d 3.64%, #ffb921 46.9%, #ffcb5a 95.93%);
+                                }
+
+                                &.blue {
+                                    color: #fff;
+                                    background: linear-gradient(90deg, #0163e1, #01bbfe);
+                                }
                             }
 
-                            &.orange {
-                                color: #FF681D;
+                            .article-title {
+                                font-size: 12px;
+                                color: #0062E1;
+                                font-family: BentonSansMedium;
+                                text-transform: capitalize;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 2;
+                                line-clamp: 2;
+                                -webkit-box-orient: vertical;
                             }
 
-                            &.red {
-                                color: #AA0050;
-                            }
-                        }
+                            .contributor-card-footer {
+                                p {
+                                    font-size: 10px;
+                                    color: #3C4B6C;
+                                    font-family: BentonSansBook;
+                                    margin: 0;
+                                }
 
-                        .article-title {
-                            font-size: 14px;
-                            color: #0062E1;
-                            font-family: BentonSansMedium;
-                            text-transform: uppercase;
-                            overflow: hidden;
-                            text-overflow: ellipsis;
-                            display: -webkit-box;
-                            -webkit-line-clamp: 2;
-                            line-clamp: 2;
-                            -webkit-box-orient: vertical;
-                        }
-
-                        .metadata p {
-                            font-size: 12px;
-                            color: #3C4B6C;
-                            margin-bottom: 0;
-
-                            @media screen and (max-width: 1199px) {
-                                font-size: 10px;
+                                .user-avatar {
+                                    img {
+                                        margin-left: -8px;
+                                        width: 15px;
+                                        height: 15px;
+                                        border-radius: 50%;
+                                        object-fit: cover;
+                                    }
+                                }
                             }
                         }
                     }
@@ -483,7 +592,22 @@
 
     /*############//End of tab-mwb section  ############*/
 
+    /*############ bannaer section start  ############*/
+    .banner {
+        .bannerSwiper {
+            .swiper-pagination-bullet {
+                background-color: transparent;
+                border: 1px solid #0062E1;
+                opacity: 1;
 
+                &.swiper-pagination-bullet-active {
+                    background-color: #0062E1;
+                }
+            }
+        }
+    }
+
+    /*############//End of bannaer section  ############*/
 
     // my-activity start
     .my-activity {

@@ -15,9 +15,7 @@
                 background: #0062E1;
                 color: #fff;
             }
-
         }
-
     }
 
     .user-avatar {
@@ -221,34 +219,62 @@
             }
 
             .mega_menu_item {
-                padding: 30px 5px;
-                border-left: 1px dotted black;
+                padding: 10px 5px;
+                border-left: 1px solid rgba(0, 0, 0, 0.1);
                 height: 100%;
 
                 h3 {
                     margin-bottom: 15px;
                     white-space: nowrap;
-                    font-size: 12px;
+                    font-size: 13px;
                     padding: 10px;
-                    background: #014ECF;
+                    position: relative;
                     font-family: 'BentonSans Medium', sans-serif;
-                    font-weight: 400 !important;
-                    text-transform: uppercase;
+                    font-weight: 700 !important;
                     border-radius: 8px;
-                    color: white;
+                    color: #1A314D;
+
+                    &::first-letter {
+                        text-transform: uppercase;
+                    }
+
+                    &::before {
+                        content: '';
+                        width: 60px;
+                        height: 2px;
+                        background-color: #0089FF;
+                        position: absolute;
+                        bottom: 0;
+                        left: 10px;
+                    }
                 }
 
                 a {
                     font-size: 12px !important;
                     white-space: nowrap;
-                    padding: 10px !important;
-                    text-transform: uppercase;
+                    padding: 5px 10px 5px 15px !important;
                     color: #0089FF !important;
                     display: block;
                     font-family: 'BentonSans-Medium', sans-serif;
+                    position: relative;
+
+                    &::first-letter {
+                        text-transform: uppercase;
+                    }
 
                     &:hover {
                         background: rgba(0, 137, 255, 0.1);
+                    }
+
+                    &::before {
+                        content: '⬤';
+                        line-height: 0;
+                        font-size: 5px;
+                        padding-right: 5px;
+                        position: absolute;
+                        left: 5px;
+                        top: 50%;
+                        transform: translateY(-50%);
                     }
                 }
 
