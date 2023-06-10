@@ -30,6 +30,24 @@ const clockSwiper = new Swiper(".clockSwiper", {
     },
 });
 
+// trend video
+const trendVideo = new Swiper(".trendVideo", {
+    slidesPerView: 1,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
+// trend podcast
+const trendpodcast = new Swiper(".trendpodcast", {
+    slidesPerView: 1,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
 // nav-tab slider
 const navTab = new Swiper(".navTabSwiper", {
     slidesPerView: 2,

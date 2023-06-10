@@ -1,0 +1,159 @@
+.contributors {
+    padding-bottom: 40px;
+
+    .contributor-details {
+        .header {
+            padding-bottom: 40px;
+
+            h2 {
+                font-family: BentonSansRegular;
+                font-size: 30px;
+                color: #0A2240;
+            }
+
+            .con-btn {
+                display: inline-block;
+                font-family: BentonSansMedium;
+                padding: 8px 15px;
+                border-radius: 8px;
+                color: #FFFFFF;
+                background: #0062E1;
+                text-transform: uppercase;
+                font-size: 14px;
+            }
+        }
+
+        .indi-card {
+            background: #FFFFFF;
+            border-radius: 16px;
+            padding: 10px 20px 20px 20px;
+
+            .image {
+                padding-bottom: 10px;
+            }
+
+            .text {
+                .name {
+                    font-family: BentonSansMedium;
+                    font-size: 16px;
+                    color: #1A314D;
+                    position: relative;
+                    padding-bottom: 5px;
+
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        width: 20%;
+                        height: 2px;
+                        background: #CED3D9;
+                        border-radius: 20px;
+                        left: 0;
+                        bottom: 0;
+                    }
+                }
+
+                .title {
+                    font-family: BentonSansRegular;
+                    font-size: 12px;
+                    color: #5C6C80;
+                    margin-bottom: 8px;
+                }
+
+                a {
+                    font-family: BentonSansMedium;
+                    font-size: 12px;
+                    text-align: center;
+                    letter-spacing: 0.5px;
+
+                    .arrow {
+                        border: solid;
+                        border-width: 0 1px 1px 0;
+                        display: inline-block;
+                        padding: 3px;
+                        transform: rotate(-45deg);
+                        -webkit-transform: rotate(-45deg);
+                        transition: all 0.3s;
+                    }
+
+                    &:hover {
+                        .arrow {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+
+                .l1 {
+                    color: #0062E1;
+
+                    .arrow {
+                        border-color: #0062E1;
+                    }
+                }
+
+                .l2 {
+                    color: #FFB81D;
+
+                    .arrow {
+                        border-color: #FFB81D;
+                    }
+                }
+
+                .l3 {
+                    color: #B99471;
+
+                    .arrow {
+                        border-color: #B99471;
+                    }
+                }
+
+                .l4 {
+                    color: #B150C5;
+
+                    .arrow {
+                        border-color: #B150C5;
+                    }
+                }
+
+                .l5 {
+                    color: #7C868D;
+
+                    .arrow {
+                        border-color: #7C868D;
+                    }
+                }
+
+                .l6 {
+                    color: #0033AA;
+
+                    .arrow {
+                        border-color: #0033AA;
+                    }
+                }
+
+                .l7 {
+                    color: #00AF43;
+
+                    .arrow {
+                        border-color: #00AF43;
+                    }
+                }
+
+                .l8 {
+                    color: #665EC7;
+
+                    .arrow {
+                        border-color: #665EC7;
+                    }
+                }
+
+                .l9 {
+                    color: #AA0050;
+
+                    .arrow {
+                        border-color: #AA0050;
+                    }
+                }
+            }
+        }
+    }
+}

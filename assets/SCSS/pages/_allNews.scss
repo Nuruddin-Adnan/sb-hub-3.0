@@ -1,0 +1,373 @@
+.all-news-page {
+
+    .multiselects {
+
+        .multiselect-wrapper {
+            position: relative;
+            width: 100%;
+
+            .multiselect-input {
+                background: #FFFFFF;
+                border: 1px solid #5C6C80;
+                border-radius: 8px;
+                padding: 10px 10px;
+                margin: 0;
+            }
+
+            .multiselect-list {
+                width: 100%;
+
+                .multiselect-text {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .input-group {
+            border-radius: 8px;
+            background: #FFFFFF;
+            border: 1px solid #5C6C80;
+            overflow: hidden;
+
+            .input-group-prepend {
+                border: none;
+
+
+                .input-group-text {
+                    background: #00000000 !important;
+                    border: none;
+
+                }
+
+                input {
+                    border: none;
+                }
+            }
+        }
+
+    }
+
+    .news-cards {
+        .new-content-body {
+            background: #fff;
+            border-radius: 16px;
+            padding: 16px;
+
+            .card-body {
+                padding: 0;
+
+                .image-holder {
+                    border-radius: 10px;
+                    overflow: hidden;
+
+                    .image-topper {
+                        position: absolute;
+                        background: #00008C;
+                        width: 100%;
+                        top: 0;
+                        display: flex;
+                        align-items: center;
+                        padding: 5px 10px;
+
+                        p {
+                            font-family: BentonSansMedium;
+                            padding-left: 5px;
+                            font-size: 11px;
+                            letter-spacing: 0.5px;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+
+                .card-title {
+                    margin-bottom: 0;
+
+                    .text {
+                        font-size: 15px;
+                        font-weight: 400;
+                        padding-bottom: 5px;
+                        color: #0062E1;
+                        font-family: BentonSansMedium;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+
+                        &:hover {
+                            color: #1d4adb;
+                        }
+                    }
+
+                    .btn-primary:not(.collapsed) svg {
+                        rotate: 180deg;
+                    }
+                }
+
+                .card-text {
+                    font-size: 12px;
+                    color: #1A314D;
+                }
+
+                .card-lg-footer {
+
+                    li {
+                        font-size: 12px;
+                        color: #5C6C80;
+                        font-family: BentonSansBook;
+                        list-style: none;
+                        display: flex;
+                        align-items: center;
+                        padding-right: 20px;
+
+                        i {
+                            font-size: 6px;
+                            color: #E7B78A;
+                            padding-right: 10px;
+                        }
+                    }
+
+                    p {
+                        font-size: 12px;
+                        color: #5C6C80;
+                        font-family: BentonSansBook;
+                        margin: 0;
+                    }
+
+                    .user-avatar {
+                        img {
+                            margin-left: -12px;
+                            width: 25px;
+                            height: 25px;
+                            border-radius: 50%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right-content-wrapper {
+            background: #fff;
+            border-radius: 16px;
+            padding: 16px;
+            padding-top: 20px;
+
+            .headings {
+                border-bottom: 2px solid #0062E1;
+                border-top: 2px solid #0062E1;
+                padding: 20px 0;
+
+                h3 {
+                    font-family: BentonSansMedium;
+                    font-size: 16px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #000032;
+                    margin: 0;
+                }
+            }
+
+            .new-tools {
+
+                .m-body {
+                    padding-top: 30px;
+
+                    .i-card {
+                        display: flex;
+
+                        img {
+                            max-width: 45px;
+                        }
+
+                        .title {
+                            font-size: 15px;
+                            font-family: BentonSansMedium;
+                            color: #1A314D;
+                        }
+
+                        .description {
+                            font-family: BentonSansRegular;
+                            font-size: 12px;
+                            color: #5C6C80;
+                        }
+
+                        a {
+                            font-family: BentonSansMedium;
+                            font-size: 12px;
+                            text-transform: uppercase;
+                            color: #0062E1;
+                            display: flex;
+                            align-items: center;
+                            justify-content: end;
+                        }
+                    }
+                }
+            }
+
+            .trending-article {
+                .card {
+                    background: #00000000;
+                }
+
+                .card-body {
+                    background: #00000000 !important;
+                    padding: 0;
+
+                    .image-holder {
+                        border-radius: 10px;
+                        overflow: hidden;
+
+                        .image-topper {
+                            position: absolute;
+                            background: #00008C;
+                            width: 100%;
+                            top: 0;
+                            display: flex;
+                            align-items: center;
+                            padding: 5px 10px;
+
+                            p {
+                                font-family: BentonSansMedium;
+                                padding-left: 5px;
+                                font-size: 11px;
+                                letter-spacing: 0.5px;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+
+                    .card-title {
+                        margin-bottom: 0;
+
+                        .text {
+                            font-size: 15px;
+                            font-weight: 400;
+                            padding-bottom: 5px;
+                            color: #0062E1;
+                            font-family: BentonSansMedium;
+                            text-transform: capitalize;
+
+                            &:hover {
+                                color: #1d4adb;
+                            }
+                        }
+
+                        .btn-primary:not(.collapsed) svg {
+                            rotate: 180deg;
+                        }
+                    }
+
+                    .card-text {
+                        font-size: 12px;
+                        color: #1A314D;
+                    }
+
+                    .time {
+                        font-size: 12px;
+                    }
+
+                    .card-lg-footer {
+
+                        li {
+                            font-size: 12px;
+                            color: #5C6C80;
+                            font-family: BentonSansBook;
+                            list-style: none;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 20px;
+
+                            i {
+                                font-size: 6px;
+                                color: #E7B78A;
+                                padding-right: 10px;
+                            }
+                        }
+
+                        p {
+                            font-size: 12px;
+                            color: #5C6C80;
+                            font-family: BentonSansBook;
+                            margin: 0;
+                        }
+
+                        .user-avatar {
+                            img {
+                                margin-left: -12px;
+                                width: 25px;
+                                height: 25px;
+                                border-radius: 50%;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .trending-videos,
+            .trending-podcasts {
+
+                .trendVideo,
+                .trendpodcast {
+                    padding-bottom: 80px;
+
+                    .swiper-btn {
+                        display: flex;
+                        align-items: center;
+                        width: auto;
+                        background: #FFF;
+                        position: absolute;
+                        top: calc(100% - 40px);
+
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .paginate {
+            background: #fff;
+            border-radius: 16px;
+            padding: 10px 15px;
+
+            .pages {
+                padding: 0 5px;
+                border-radius: 5px;
+                background: #00000025;
+
+                .page-number {
+                    padding: 0 6px;
+                    cursor: pointer;
+                    margin: 0 2px;
+
+                    &.active {
+                        transform: scale(1.2);
+                        background: #0062E1;
+                        color: #fff;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.country-modal {
+    .mm-head {
+        font-family: BentonSansRegular;
+        color: #1A314D;
+        font-size: 14px;
+    }
+
+    img {
+        max-width: 25px;
+    }
+
+    .c-name {
+        font-family: BentonSansRegular;
+        font-size: 12px;
+        color: #5C6C80;
+        padding-left: 10px;
+    }
+}
